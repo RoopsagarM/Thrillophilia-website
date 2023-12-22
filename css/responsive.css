@@ -1,0 +1,27 @@
+
+/* responsive css for destop  (big screen)*/
+@media (min-width:1338px) and (max-width:1900px){
+    /* .container{
+        width: 63.4%;
+        display: flex;
+    } */
+    .categories > a{
+        padding-left: 40.55px;
+        padding-right: 40.63px;
+        /* background-color: aliceblue; */
+    }
+}
+
+/* responsive css for destop(small screen) */
+@media (min-width:1225px) and (max-width:1337px){
+    .container{
+        width: 70.4%;
+        display: flex;
+    }
+    .categories > a{
+        padding-left: 20.55px;
+        padding-right: 19.83px;
+        /* background-color: aliceblue; */
+    }
+}
+
